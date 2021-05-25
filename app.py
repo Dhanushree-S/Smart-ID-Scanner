@@ -18,9 +18,9 @@ photos=UploadSet('photos',IMAGES)
 
 app.config['UPLOAD_FOLDER']='static'
 app.config['MYSQL_HOST']="remotemysql.com"     
-app.config['MYSQL_USER']="EcIPQXuPvx"
-app.config['MYSQL_PASSWORD']="wYchCLapIq"
-app.config['MYSQL_DB']="EcIPQXuPvx"
+app.config['MYSQL_USER']="Ec*****Pvx"
+app.config['MYSQL_PASSWORD']="your_password"
+app.config['MYSQL_DB']="Ec*****Pvx"
 mysql=MySQL(app)
 
 
