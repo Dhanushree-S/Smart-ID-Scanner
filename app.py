@@ -24,11 +24,11 @@ app.config['MYSQL_DB']="EcIPQXuPvx"
 mysql=MySQL(app)
 
 
-@app.route('/',methods=['GET', 'POST'])                #Home page
+@app.route('/',methods=['GET', 'POST'])                
 def index():
     return render_template('login.html')
 
-@app.route('/login',methods =['GET', 'POST'])                #Home page
+@app.route('/login',methods =['GET', 'POST'])                
 def login():
     global userid
     msg = ''
@@ -50,7 +50,7 @@ def login():
         
 
    
-@app.route('/signup', methods =['GET', 'POST'])         #Signup/Login
+@app.route('/signup', methods =['GET', 'POST'])         
 def signup():
     msg = ''
     if request.method == 'POST' :
