@@ -11,4 +11,3 @@
 -- Users get the extracted text from the image.
 
 
-https://drive.google.com/file/d/1UsyN2bSeUC6b16isT6TdoKiaD0x7-DIQ/view?usp=sharing
